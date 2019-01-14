@@ -39,6 +39,42 @@
 
         <TextView
             style="@style/device_info_dialog_label"
+            android:id="@+id/slimcaf_version_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/slimcaf_version"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/slimcaf_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/caf_revision_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/caf_revision"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/caf_revision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/device_info_dialog_label"
+            android:id="@+id/rom_developer_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rom_developer"/>
+        <TextView
+            style="@style/device_info_dialog_value"
+            android:id="@+id/rom_developer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            style="@style/device_info_dialog_label"
             android:id="@+id/security_patch_level_label"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
